@@ -122,6 +122,7 @@ footer{
     color: white;
     flex-wrap: wrap;
     margin-top: 20px;
+    padding: 10px;
     background: rgb(234, 95, 9);
 }
 
