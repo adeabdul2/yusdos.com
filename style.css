@@ -66,7 +66,7 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .block1{
@@ -103,7 +103,7 @@ a:hover{
     align-items: flex-end;
     flex-wrap: wrap;
     color: white;
-    margin-bottom: -186px;
+    margin-bottom: -190px;
     border-radius: 0 0 10px 10px;
     background: rgb(234, 95, 9);
 }
@@ -112,7 +112,7 @@ a:hover{
 
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: white;
     flex-wrap: wrap;
