@@ -49,6 +49,11 @@ a:hover{
     font-style: italic;
 }
 
+.container-a{
+    width: 90%;
+    margin: auto;
+}
+
 .images-block{
     display: flex;
     justify-content: space-evenly;
