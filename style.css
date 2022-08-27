@@ -1,0 +1,122 @@
+body{
+    font-family: 'Acme', sans-serif;
+    margin: 0;
+}
+
+/* HEADER */
+header{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    background: rgb(234, 95, 9);
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.yusdos{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    width:auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+
+nav>*{
+    text-decoration: none;
+    color:beige;
+}
+
+a:hover{
+    background: #000;
+    border-radius: 5px;
+    margin: 0 1.5px;
+    font-size: 20px;
+    margin-top: -3px;
+}
+
+/* CONTAINER */
+.motto{
+    text-align: center;
+    font-style: italic;
+}
+
+.images-block{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-block{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 355px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.block1{
+    background: url("images/window.jpg");
+}
+
+.block2{
+    background: url("images/doors.PNG");
+}
+
+.block3{
+    background: url("images/glassroof.jpg");
+}
+
+.block4{
+    background: url("images/alumwork5.jpg");
+}
+
+.block5{
+    background: url("images/partition.jpeg");
+}
+
+.block6{
+    background: url("images/cladding.jpg");
+}
+.img-text{
+    color: rgb(234, 95, 9);
+    font-size: 250%;
+}
+
+.img-subtext{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    color: white;
+    margin-bottom: -186px;
+    border-radius: 0 0 10px 10px;
+    background: rgb(234, 95, 9);
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background: rgb(234, 95, 9);
+}
+
